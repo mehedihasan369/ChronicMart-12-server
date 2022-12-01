@@ -21,6 +21,31 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 
 
+
+async function run(){
+  try{
+    const categoriesCollection = client.db("chronicMart").collection("categories");
+
+
+    //////categories--api---
+    app.get('/categories',async (req,res) =>{
+      const query = {}
+      const cursor = categoriesCollection.find(query);
+      const categories = await cursor.toArray();
+      res.send(categories);
+    })
+
+  }
+  finally{
+
+  }
+}
+run().catch(console.log); 
+
+
+
+//////////////////////////////
+
 app.get('/',async (req,res) => {
 res.send('chronic ApI Running');
 }); 
