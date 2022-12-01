@@ -1,49 +1,29 @@
 
 const express = require('express');
 const cors =require('cors');
-const app = express();
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+const jwt = require('jsonwebtoken');
+require('dotenv').config();
+
 const port =process.env.PORT || 5000;
 
+const app = express();
+
+///midlewear------
 app.use(cors());
+app.use(express.json());
 
 
 
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.ewvrucy.mongodb.net/?retryWrites=true&w=majority`;
+console.log(uri)
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 
-const categories = require('./data/categories.json');
-const blogs = require('./data/blogs.json');
 
-app.get('/',(req,res) => {
-res.send('Chronic ApI Running');
+app.get('/',async (req,res) => {
+res.send('chronic ApI Running');
 }); 
-app.get('/categories',(req,res) => {
-res.send(categories);
-}); 
-app.get('/blogs',(req,res) => {
-res.send(blogs);
-}); 
-
-const courseCollection = require('./data/product.json');
-
-
-
-
-app.get('/course/:id', (req, res) => {
-    const id = req.params.id;
-    const getSingleItem = courseCollection?.find((p) => p.id == id);
-    if (!getSingleItem) {
-      res.send("No Data");
-    }
-    res.send(getSingleItem);
-  });
-app.get('/blogs/:id', (req, res) => {
-    const id = req.params.id;
-    const getSingleBlog = blogs?.find((p) => p.id == id);
-    if (!getSingleBlog) {
-      res.send("No Data");
-    }
-    res.send(getSingleBlog);
-  });
 
 
 app.listen(port, () => {

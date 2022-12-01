@@ -1,13 +1,90 @@
 [
-  {
-    "name" : "",
+  { "id":"1",
+    "name" : "Xiaomi Redmi Note 7",
     "category" : "",
-    "location" : "",
-    "resalePrice" : "",
-    "originalPrice" : "",
-    "yearsOfUse" : "",
-    "postedTime" : "",
-    "sellerName":"30-12-2022"
+    "img" : "https://www.gizmochina.com/wp-content/uploads/2019/06/Redmi-Note-7.jpg",
+    "location" : "Dhaka",
+    "resalePrice" : "500",
+    "originalPrice" : "1000",
+    "yearsOfUse" : "2",
+    "postedTime" : "30-12-2022",
+    "sellerName":"Ali",
+    "verifyStatus" : "false"
+
+  },
+  { "id":"2",
+    "name" : "Redmi Note 10",
+    "category" : "Xiaomi",
+    "img":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note10-pro-1.jpg",
+    "location" : "Dhaka",
+    "resalePrice" : "600",
+    "originalPrice" : "1500",
+    "yearsOfUse" : "1",
+    "postedTime" : "30-12-2022",
+    "sellerName":"Liakat",
+    "verifyStatus" : "false",
+    "email":""
+
+  },
+  { "id":"3",
+    "name" : "Samsung Note 10",
+    "category" : "Samsung",
+    "img":"https://www.mobiledokan.com/wp-content/uploads/2019/09/Samsung-Galaxy-Note10-Black.jpg",
+    "location" : "Chitagong",
+    "resalePrice" : "500",
+    "originalPrice" : "800",
+    "yearsOfUse" : "4",
+    "postedTime" : "30-12-2022",
+    "sellerName":"Unknown",
+    "verifyStatus" : "false",
+    "email":""
+
+  },
+  { "id":"4",
+    "name" : "Samsung M20",
+    "category" : "Samsung",
+    "img":"https://www.mobiledokan.co/wp-content/uploads/2019/01/Samsung-Galaxy-M20.jpg",
+    "location" : "Dhaka",
+    "resalePrice" : "100",
+    "originalPrice" : "500",
+    "yearsOfUse" : "3",
+    "postedTime" : "30-10-2022",
+    "sellerName":"Fazal",
+    "verifyStatus" : "false",
+    "email":""
+
+
+  },
+  { "id":"5",
+    "name" : "IPhone 12",
+    "category" : "Iphone",
+    "img":"https://www.gizmochina.com/wp-content/uploads/2020/10/cats-500x500.jpg",
+    "location" : "Gulshan",
+    "resalePrice" : "900",
+    "originalPrice" : "1800",
+    "yearsOfUse" : "2",
+    "postedTime" : "30-12-2022",
+    "sellerName":"kjzdk",
+    "verifyStatus" : "false",
+    "email":""
+
+
+  },
+  { "id":"6",
+    "name" : "dkjbkjb",
+    "category" : "Iphone",
+    "img":"https://www.gizmochina.com/wp-content/uploads/2020/10/cats-500x500.jpg",
+    "location" : "koihoi",
+    "resalePrice" : "123",
+    "originalPrice" : "321",
+    "yearsOfUse" : "3",
+    "postedTime" : "3-1-2022",
+    "sellerName":"asioio",
+    "verifyStatus" : "false",
+    "email":""
+
 
   }
+
+
   ]
