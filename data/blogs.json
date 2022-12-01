@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": " what is cors?",
+        "h1":"What is CORS (cross-origin resource sharing)?",
+        "description1": "Cross-origin resource sharing (CORS) is a browser mechanism which enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy (SOP). However, it also provides potential for cross-domain attacks, if a website's CORS policy is poorly configured and implemented. CORS is not a protection against cross-origin attacks such as cross-site request forgery (CSRF).",
+        "h2":"",
+        "description2": "",
+
+        "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1599591569159/Ylc2deIBk.png"
+        }, 
+        {
+            "id": 2,
+            "title": "Why are you using firebase? What other options do you have to implement authentication?",
+            "h1":"Why are you using firebase?",
+        "description1": "The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our Apple platforms, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.",
+        "h2":"What other options do you have to implement authentication?",
+        "description2": "1 Back4App,<br>2 Backendless,<br>3 Kuzzle,<br>4 Pubnub,<br>5 Kumulos,<br>6 Appwrite,<br>7,Deployd,<br>8 NHost,<br>9 AWS Amplify,<br>10 Heroku",
+        
+            "image": "https://firebase.google.com/images/social.png"
+            },
+    
+            {
+                "id": 3,
+                "title": "How does the private route work?",
+                "h1":"How does the private route work?",
+        "description1": "Private Routes in React Router (also called Protected Routes) require a user being authorized to visit a route (read: page). So if a user is not authorized for a specific page, they cannot access it. The most common example is authentication in a React application where a user can only access the protected pages when they are authorized (which means in this case being authenticated). Authorization goes beyond authentication though. For example, a user can also have roles and permissions which give a user access to specific areas of the application.",
+        "h2":"",
+        "description2": "",
+            
+                "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1644677452807/XGJeaMjX2.png?w=1200&auto=compress,format&format=webp&fm=png"
+            },
+            {
+                "id": 4,
+                "title": " What is Node? How does Node work?",
+                "h1":"What is Node?",
+        "description1": "Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser.",
+        "h2":"How does Node work?",
+        "description2": "Node.js accepts the request from the clients and sends the response, while working with the request node.js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads. Thread is a sequence of instructions that the server needs to perform. It runs parallel on the server to provide the information to multiple clients. Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request.",
+        
+                "image": "https://www.trio.dev/hubfs/Imported_Blog_Media/0cda999fb6a33a6de22081506a101285-2-1.jpg"
+            }
+]

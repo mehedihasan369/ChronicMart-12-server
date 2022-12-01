@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "name": "Iphone",
+      "image": "https://images.unsplash.com/photo-1603791239531-1dda55e194a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBpcGhvbmV8ZW58MHx8MHx8&w=1000&q=80",
+      "description" : ""
+    },
+    {
+      "id": "2",
+      "name": "Xiaomi",
+      "image":"https://thumbs.dreamstime.com/b/xiaomi-mi-often-referred-to-as-phone-simplified-chinese-%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA-traditional-%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F-pinyin-xi%C7%8Eom%C7%90-sh%C5%8Fuj%C4%AB-high-205683104.jpg",
+      "description" : ""
+    },
+    {
+      "id": "3",
+      "name": "Samsung",
+      "image":"https://www.shutterstock.com/image-photo/kiev-ukraine-march-31-2015-260nw-270200051.jpg",
+      "description":""
+    }
+  ]

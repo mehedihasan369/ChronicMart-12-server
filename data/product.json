@@ -1,0 +1,89 @@
+[
+  {
+  "id": 1,
+  "name": "HTML",
+  "image": "https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+  "description" : "HTML is the standard markup language for Web pages.With HTML you can create your own Website.HTML is easy to learn - You will enjoy it!",
+  "topics" : ["HTML Tutorial.","HTML Forms."," HTML Graphics.","HTML Media.","HTML APIs."," HTML Examples.","HTML References."],
+  "rating": {
+  "rate": 4.1,
+  "count": 259
+  }
+  },
+  {
+  "id": 2,
+  "name": "CSS",
+      "image":"https://cronuts.digital/wp-content/uploads/2020/04/Artboard-11-1024x724.png",
+      "description" : "CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.This tutorial will teach you CSS from basic to advanced.",
+
+     
+
+
+
+
+
+
+      "topics" : [" The syntax and forms of the language..","Specificity, inheritance, and the Cascade."," CSS units and values and functional notations.","Box model and margin collapse.","The containing block."," Stacking and block-formatting contexts.","CSS shorthand properties."],
+
+ 
+  "rating": {
+  "rate": 4.1,
+  "count": 259
+  }
+  },
+  {
+  "id": 3,
+  "name": "Bootstrap",
+  "image":"https://getbootstrap.com/docs/5.2/assets/img/bootstrap-icons.png",
+  "description":"Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+  "topics" : ["BootStrap Introduction and Installation.","Bootstrap Grid System.","Bootstrap Buttons, Glyphicons, Tables.","Bootstrap Vertical Forms, Horizontal Forms, Inline Forms.","Bootstrap DropDowns and Responsive Tabs.","Bootstrap Progress Bar and Jumbotron."],
+  "rating": {
+  "rate": 4.7,
+  "count": 500
+  }
+  },
+  {
+  "id": 4,
+  "name": "Tailwind",
+  "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1000px-Tailwind_CSS_Logo.svg.png",
+  "description":"Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables",
+  "topics" : [],
+  "rating": {
+  "rate": 2.1,
+  "count": 430
+  }
+  },
+  {
+  "id": 5,
+  "name": "Javascript",
+  "image":"https://www.codecademy.com/resources/blog/content/images/2021/05/what-is-javascript-used-for-1.png",
+  "description":"JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web.JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced.",
+  "topics" : ["Variables ","array","Objects","functions","loop","etc.."],
+  "rating": {
+  "rate": 4.6,
+  "count": 400
+  }
+  },
+  {
+  "id": 6,
+  "name": "React",
+  "image":"https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687822/retina_1708x683_cover-react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
+  "description":"React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
+  "topics" : ["ReactJS Introduction to JSX.","ReactJS Rendering Elements."," ReactJS Components..","ReactJS Props","ReactJS State in React."],
+  "rating": {
+  "rate": 3.9,
+  "count": 70
+  }
+  },
+  {
+  "id": 7,
+  "name": "Spoken English",
+  "image":"https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/05/05011631/How-to-Learn-Spoken-English_.png",
+  "description": "Speaking English allows you to actually broaden your world, from job opportunities to the ability to relate to people from every country. Knowing the language makes it much more interesting every trip. Anywhere you want to go in the world you can find someone who speaks English.",
+  "topics" : [],
+  "rating": {
+  "rate": 3,
+  "count": 400
+  }
+  }
+  ]
