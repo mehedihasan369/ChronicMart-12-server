@@ -1,7 +1,7 @@
 [
   { "id":"1",
     "name" : "Xiaomi Redmi Note 7",
-    "category" : "",
+    "category" : "Xiaomi",
     "img" : "https://www.gizmochina.com/wp-content/uploads/2019/06/Redmi-Note-7.jpg",
     "location" : "Dhaka",
     "resalePrice" : "500",

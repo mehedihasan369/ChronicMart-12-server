@@ -1,43 +1,43 @@
 [
     {
         "id": 1,
-        "title": " what is cors?",
-        "h1":"What is CORS (cross-origin resource sharing)?",
-        "description1": "Cross-origin resource sharing (CORS) is a browser mechanism which enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy (SOP). However, it also provides potential for cross-domain attacks, if a website's CORS policy is poorly configured and implemented. CORS is not a protection against cross-origin attacks such as cross-site request forgery (CSRF).",
-        "h2":"",
-        "description2": "",
+        "title": "What are the different ways to manage a state in a React application?",
+        "h1":"Managing State",
+        "description1": "As your application grows, it helps to be more intentional about how your state is organized and how the data flows between your components. Redundant or duplicate state is a common source of bugs. In this chapter, you’ll learn how to structure your state well, how to keep your state update logic maintainable, and how to share state between distant components.",
+        "h2":"Reacting to input with state",
+        "description2": "With React, you won’t modify the UI from code directly. For example, you won’t write commands like “disable the button”, “enable the button”, “show the success message”, etc. Instead, you will describe the UI you want to see for the different visual states of your component (“initial state”, “typing state”, “success state”), and then trigger the state changes in response to user input. This is similar to how designers think about UI.",
 
-        "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1599591569159/Ylc2deIBk.png"
+        "image": "https://cdn.educba.com/academy/wp-content/uploads/2021/02/React-State-Management.jpg"
         }, 
         {
             "id": 2,
-            "title": "Why are you using firebase? What other options do you have to implement authentication?",
-            "h1":"Why are you using firebase?",
-        "description1": "The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our Apple platforms, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.",
-        "h2":"What other options do you have to implement authentication?",
-        "description2": "1 Back4App,<br>2 Backendless,<br>3 Kuzzle,<br>4 Pubnub,<br>5 Kumulos,<br>6 Appwrite,<br>7,Deployd,<br>8 NHost,<br>9 AWS Amplify,<br>10 Heroku",
+            "title": " How does prototypical inheritance work?",
+            "h1":"",
+        "description1": "Every object with its,methods and properties contains an internal and hidden property known as [[Prototype]]. The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object.Traditionally, in order to get and set the [[Prototype]] of an object, we use Object.getPrototypeOf and Object.setPrototypeOf. Nowadays, in modern language, it is being set using __proto__.",
+        "h2":" ",
+        "description2": " ",
         
-            "image": "https://firebase.google.com/images/social.png"
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20200520193336/Untitled-Diagram108.png"
             },
     
             {
                 "id": 3,
-                "title": "How does the private route work?",
-                "h1":"How does the private route work?",
-        "description1": "Private Routes in React Router (also called Protected Routes) require a user being authorized to visit a route (read: page). So if a user is not authorized for a specific page, they cannot access it. The most common example is authentication in a React application where a user can only access the protected pages when they are authorized (which means in this case being authenticated). Authorization goes beyond authentication though. For example, a user can also have roles and permissions which give a user access to specific areas of the application.",
-        "h2":"",
-        "description2": "",
+                "title": "What is a unit test? Why should we write unit tests?",
+                "h1":"What is the meaning of unit test?",
+        "description1": "A unit test is a way of testing a unit - the smallest piece of code that can be logically isolated in a system. In most programming languages, that is a function, a subroutine, a method or property. The isolated part of the definition is important.",
+        "h2":"Why do we write test?",
+        "description2": "The key is: when you write test you take the perspective of the one that will consume your code. It forces you to have an holistic approach of the behavior to implement. This way ambiguities you get from requirements become obvious and are immediately taken account when code is written the first time.",
             
-                "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1644677452807/XGJeaMjX2.png?w=1200&auto=compress,format&format=webp&fm=png"
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM8yFyzNWSybyZFMnqkcM0BgRzXJkdxfOi55bGUi8AJktQ1Q3KUn_68kogQtehvKsrUuE&usqp=CAU"
             },
             {
                 "id": 4,
                 "title": " What is Node? How does Node work?",
-                "h1":"What is Node?",
-        "description1": "Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser.",
-        "h2":"How does Node work?",
-        "description2": "Node.js accepts the request from the clients and sends the response, while working with the request node.js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads. Thread is a sequence of instructions that the server needs to perform. It runs parallel on the server to provide the information to multiple clients. Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request.",
+                "h1":"",
+        "description1": "This post is comprehensive guide on which is perhaps the right solution for you: Angular vs React vs Vue.Just a couple of years ago, developers were mainly debating whether they should be using Angular vs React for their projects. But over the course of the last couple of years, we’ve seen a growth of interest in a third player called Vue.js.If you are a developer starting out on a project and cannot decide on which JavaScript framework to use, this guide should help you make a decision.Angular vs React vs Vue.Here we’ll cover various aspects of Angular, Vue, and React to see how they suit your needs. This post is not just a guide on Angular vs React vs Vue but aims to provide a structure to help judge front-end JavaScript frameworks in general. In case a new framework arrives next year, you will know exactly what parameters to look at.",
+        "h2":"",
+        "description2": "",
         
-                "image": "https://www.trio.dev/hubfs/Imported_Blog_Media/0cda999fb6a33a6de22081506a101285-2-1.jpg"
+                "image": "https://iotvnaw69daj.i.optimole.com/cb:n2y9~6666f/w:1450/h:740/q:mauto/f:avif/https://www.codeinwp.com/wp-content/uploads/2019/01/angular-vs-vue-vs-react.jpg"
             }
 ]
